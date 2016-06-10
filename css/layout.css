@@ -21,10 +21,9 @@ header li{
 #about-us {
 	height: 600px;
 }
-.features, .services-galery, .teams-galery {
+.features, .services-galery, .teams-galery, #contact-us fieldset, .footer-container {
 	width: 900px;
 	margin: 0 auto;
-	border: 1px solid #000;
 	display: table;
 }
 .features:first-child {
@@ -55,10 +54,33 @@ header li{
 #teams {
 	clear: left;
 }
+.teams-galery {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	display: table;
+}
 .team {
 	float: left;
 	width: 150px;
 }
 .team img {
 	width: inherit;
+}
+
+#contact-us fieldset div{
+	float: left;
+	width: 450px;
+}
+.footer-container div {
+	float: left;
+}
+.social {
+	float: right;
+}
+.social li {
+	display: inline-block;
+}
+.social a[href*="facebook.com"] {
+
 }
