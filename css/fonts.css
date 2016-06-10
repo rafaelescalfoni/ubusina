@@ -1,3 +1,23 @@
+@font-face {
+    font-family: benchnine;
+    src: url(../fonts/benchnine.otf);
+}
+* {
+  font-family: benchnine;
+}
 #about-us h2{
 	color: rgb(91, 191, 232);
+}
+#services h2, #services p, #services figcaption {
+    color: #fff;
+}
+#services h2 {
+    font-size: 65px;
+}
+#services p {
+  font-size: 20px;
+
+}
+#services figcaption {
+  font-weight: bold;
 }

@@ -1,5 +1,5 @@
 body {
-	margin: 0; 
+	margin: 0;
 }
 header{
 	display: fixed;
@@ -32,15 +32,21 @@ header li{
 .features-item {
 	width: 250px;
 	float: left;
-	margin-right: 35px; 
+	margin-right: 35px;
 }
 .features-item img {
 	width: inherit;
 }
 #services {
-
+	padding: 10px 0;
+  text-align: center;
+  height: 420px;
+  margin: 0 auto;
 }
-
+#services p {
+  margin-top: -65px;
+  margin-bottom: 60px;
+}
 .services-galery figure {
 	float: left;
 	margin: 0 20px;
