@@ -1,0 +1,21 @@
+.active, .active:hover{
+	color: rgb(91,191,232);
+}
+header a:hover{
+	color: rgb(195,195,195);
+	transition: all 0.5s; 
+}
+.features{
+	background-color: rgb(42, 42, 42);
+}
+.features:hover{
+	background-color: rgb(49, 158, 198);
+	transition: all 0.5s; 
+}
+.team, .team-top{
+	background-color: rgb(49, 158, 198);
+}	
+.team:hover, .team-top:hover{
+	background-color: rgb(42, 42, 42);
+	transition: all 0.5s;
+}
