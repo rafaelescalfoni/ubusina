@@ -1,33 +1,100 @@
 @font-face {
-    font-family: benchnine;
-    src: url(../fonts/benchnine.otf);
+    font-family: 'BenchNine';
+    src: url("../fonts/benchnine.otf");
 }
+@font-face {
+  font-family: 'glyphs';
+  src: url("../fonts/glyphicons-halfing-regular.eot");
+
+}
+[class^="fa-"]:before {
+  content: " ";
+  width:10px; height:10px;
+  display:inline-block;
+  vertical-align:middle;
+  font-family: glyphs;
+}
+
+.fa-calendar:before { content: '\2131'; }
+.fa-address:before { content: '\0a0a';}
 * {
-  font-family: benchnine;
+  font-family: 'BenchNine';
 }
-#about-us h2{
-	color: rgb(91, 191, 232);
-}
-<<<<<<< HEAD
 
 header a {
 	text-decoration: none;
+  color: #000;
+}
+
+.container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5em;
+  margin: 30px 0 10px 0;
+}
+
+.container p {
+  color: rgb(105,105,105);
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .features-item h3 {
 	text-align: center;
-=======
-#services h2, #services p, #services figcaption {
+}
+
+.team div h3 {
+  margin: 15px 0 0px 0;
+  font-size: 1.5em;
+}
+
+.team div p {
+  margin-top: 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+#about-us h2, #teams h2{
+  color: rgb(91, 191, 232);
+}
+
+#services, #contact-us {
     color: #fff;
 }
+
 #services h2 {
     font-size: 65px;
+    text-align: center;
 }
+
 #services p {
   font-size: 20px;
-
 }
+
 #services figcaption {
   font-weight: bold;
->>>>>>> 02983d7b42caf2d20258d2760104e6fc995ae00e
 }
+
+#contact-info h3, #contact-form h3 {
+  font-size: 2em;
+  text-transform:uppercase; 
+}
+#contact-form input, #contact-form textarea, #contact-form button {
+  font-size: 1.2em;
+}
+
+#contact-form button  {
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#contact-us ul {
+  list-style: none;
+  padding-left: 0;
+}
+#contact-us li {
+  margin: 10px 0;
+}
+

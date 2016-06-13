@@ -1,4 +1,7 @@
-	.active, .active:hover{
+header h1 {
+	background-image: url("../img/logo.png");
+}
+.active, .active:hover{
 	color: rgb(91,191,232);
 }
 header a:hover{
@@ -10,12 +13,8 @@ header a:hover{
 }
 .features-item:hover{
 	background-color: rgb(49, 158, 198);
-<<<<<<< HEAD
 	color: rgb(49, 158, 198);
 	transition: all 0.5s; 
-=======
-	transition: all 0.5s;
->>>>>>> 02983d7b42caf2d20258d2760104e6fc995ae00e
 }
 .features-item p,.features-item h3 {
 	color: #fff;
@@ -29,7 +28,6 @@ header a:hover{
 }
 .team, .team-top, .team-bottom{
 	background-color: rgb(49, 158, 198);
-<<<<<<< HEAD
 	color: #fff;
 }	
 
@@ -37,13 +35,24 @@ header a:hover{
 	background-color: rgb(42, 42, 42);
 	transition: all 0.5s;
 }
-=======
-}
-.team:hover, .team-top:hover{
+
+#contact-form button  {
 	background-color: rgb(42, 42, 42);
-	transition: all 0.5s;
 }
+
+#contact-info ul, #contact-form ul {
+	border-top: 1px solid #53cde5;
+}
+
 #services {
   background-image: url("../img/pattern.jpg");
 }
->>>>>>> 02983d7b42caf2d20258d2760104e6fc995ae00e
+
+#contact-us {
+	background: url("../img/mapa.png") rgba(0,0,0,0.5); 
+	opacity: 1;
+}
+#contact-us fieldset {
+	opacity: 1;
+	background-color: rgb(49, 158, 198);
+}
