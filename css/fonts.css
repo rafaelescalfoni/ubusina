@@ -1,6 +1,14 @@
+@font-face {
+    font-family: benchnine;
+    src: url(../fonts/benchnine.otf);
+}
+* {
+  font-family: benchnine;
+}
 #about-us h2{
 	color: rgb(91, 191, 232);
 }
+<<<<<<< HEAD
 
 header a {
 	text-decoration: none;
@@ -8,4 +16,18 @@ header a {
 
 .features-item h3 {
 	text-align: center;
+=======
+#services h2, #services p, #services figcaption {
+    color: #fff;
+}
+#services h2 {
+    font-size: 65px;
+}
+#services p {
+  font-size: 20px;
+
+}
+#services figcaption {
+  font-weight: bold;
+>>>>>>> 02983d7b42caf2d20258d2760104e6fc995ae00e
 }

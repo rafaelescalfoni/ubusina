@@ -1,0 +1,135 @@
+body {
+	margin: 0; 
+}
+header{
+	display: fixed;
+	top: 0;
+	height: 20px;
+}
+header nav {
+	float: right;
+}
+
+header li{
+	display: inline-block;
+}
+#galeria-fotos {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+#about-us {
+	height: 600px;
+}
+.features, .services-galery, .teams-galery, #contact-us fieldset, .footer-container {
+	width: 900px;
+	margin: 0 auto;
+	display: table;
+	clear: left;
+}
+.features:first-child {
+	margin-left: 20px;
+}
+.features-item {
+	width: 250px;
+	float: left;
+	margin-right: 35px; 
+}
+.features-item img {
+	width: inherit;
+}
+#services {
+	padding: 30px;
+}
+
+.services-galery figure {
+	float: left;
+	margin: 0 20px;
+	width: 180px;
+}
+.services-galery img {
+	width: inherit;
+}
+
+#teams {
+	clear: left;
+}
+.teams-galery {
+	width: 900px;
+	margin: 0 auto;
+	height: 380px;
+	border: 1px solid #000;
+	display: table;
+}
+.team {
+	position: relative;
+	float: left;
+	width: 150px;
+}
+.team img {
+	width: inherit;
+}
+
+.team-top{
+	position: absolute;
+	top: 130px;
+	background-color: #fff;
+	height: 210px;
+	padding: 5px;
+	box-sizing:border-box;
+	-webkit-clip-path: polygon(0 5%, 40% 5%, 50% 0, 60% 5%, 100% 5%, 100% 100%, 0 100%);
+}
+.team-bottom{
+	height: 200px;
+	margin-top: 0;
+	background-color: #fff;
+	padding: 5px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 60% 95%, 50% 100%, 40% 95%, 0 95%);
+	z-index: 999999999;
+}
+
+.team-bottom h3 {
+	margin-top: 0;
+}
+.team-bottom+img{
+	position: absolute;
+	top: 190px;
+	z-index: 1;
+}
+
+#contact-us fieldset div{
+	float: left;
+	width: 450px;
+}
+.footer-container div {
+	float: left;
+}
+.social {
+	float: right;
+}
+.social li {
+	display: inline-block;
+}
+.social a[href*="facebook.com"] {
+
+}
+.features-item {
+	position: relative;
+}
+.features-item img {
+	border-bottom: 2px solid #fff;
+}
+
+.hexagono {
+	position: absolute;
+	padding: 10px 0px;
+	font-size: 3em;
+	text-align: center;
+	box-sizing:border-box;
+	top: 215px;
+	left:103px;
+	width: 60px;
+	height: 90px;
+	background-color: #fff;	
+	-webkit-clip-path: polygon(50% 0, 100% 20%, 100% 60%, 50% 80%, 0 60%, 0 20%);
+}
