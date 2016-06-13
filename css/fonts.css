@@ -1,3 +1,11 @@
 #about-us h2{
 	color: rgb(91, 191, 232);
 }
+
+header a {
+	text-decoration: none;
+}
+
+.features-item h3 {
+	text-align: center;
+}

@@ -1,21 +1,34 @@
-.active, .active:hover{
+	.active, .active:hover{
 	color: rgb(91,191,232);
 }
 header a:hover{
 	color: rgb(195,195,195);
 	transition: all 0.5s; 
 }
-.features{
+.features-item{
 	background-color: rgb(42, 42, 42);
 }
-.features:hover{
+.features-item:hover{
 	background-color: rgb(49, 158, 198);
+	color: rgb(49, 158, 198);
 	transition: all 0.5s; 
 }
-.team, .team-top{
+.features-item p,.features-item h3 {
+	color: #fff;
+}
+.features-item div:not(.hexagono) {
+	padding: 10px 30px;
+}
+
+#services {
+	background:url(../img/pattern.jpg);
+}
+.team, .team-top, .team-bottom{
 	background-color: rgb(49, 158, 198);
+	color: #fff;
 }	
-.team:hover, .team-top:hover{
+
+.team:hover, .team-top:hover, .team-bottom:hover{
 	background-color: rgb(42, 42, 42);
 	transition: all 0.5s;
 }
